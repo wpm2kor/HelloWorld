@@ -1,1 +1,8 @@
 Flask==2.2.3
+
+#The error you are encountering is due to a change in the Werkzeug library, 
+#which is a dependency of Flask. The url_quote function has been removed in recent versions of Werkzeug.
+Werkzeug==1.0.1
+
+#for unit  install pytest module
+pytest
